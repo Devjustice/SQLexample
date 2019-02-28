@@ -1,0 +1,26 @@
+DB는 CPU와 독립된 기준으로 운용이된다.
+독립 기준은 개념스키마, 외부스키마, 내부 스키마가 있다.
+DB설계 방법론에는 정규화가 있다. nomailization
+중복성 이 배제된 db라고 할 수있다.
+도메인이란 자료형 형태의 크기를 정하는 범주인데 예로써 나이를 들면 0~150까지 크기를 잡아 활용하는 것으로 도메인이라고 할 수있다.
+RELATION INSTANCE는 실제 값이라고 할 수있다. 
+스키마는 독립성이 있다. 안에 구조를 바꾼다고 해서 구조가 변화 하지 않는다. 관계형 데이터 베이스의 특징이다.
+DB의 언어 DDL 데이터정의언어이고 DML은 데이터 처리언어이고 DMCL은 데이터 조작언어이다.DMCL에는 BUFFER,PAGING을 할 수있다 또한 
+QUEREY LANGUAGE가 있다. DB의 유형은 RDB와 TREEDB NETWORK DB가 있다.
+KEY의 종류에는 PRIMARY KEY와 COMPOSITE KEY, CANDIDATE KEY, COMPOSITE PRIMARY KEY, ALTERNATE KEY가 있다.
+PRIMARY KEY는 선택되는 키 예로서 목차이다.
+COMPOSITE KEY 묶음적인 키이다.
+CANDIDATE KEY는 원하는 것을 묶어서 키로 사용 할 수있다
+Altkey는 primary key선정키를 제외한 나머지를 지칭한다.
+RDB의 특성은 정규형이며 여러가지 테이블을 가질 수있다. 테이블과 테이블의 이동이 가능하다. 중복성을 삭제할 수있다. 
+FORIGN key는 외래키로 다른릴레이션 키를 가져 올 수있다 
+primary key 가 정하는 룰 2가지가 있다 인테그리티룰 1 primary key에서는 널 값이 없어야한다.,모든 엔티티는 구분이 가능하여야한다.
+인테그리티룰 2 외래키 존재하지 않는 키를 접근할 수없다. 하용되는 키는 다른 릴레이션에서 사용이 가능하다
+프레디켓 연산 셀렉트 + 웨어 절을 사용하여 원하는 튜블에 접속이 가능하다
+조인 연산은 올해 진급자를 뽑을때 점수와 성과를 골라내어 R1과 R2를 합쳐 결과를 도출 할 수있다
+원하는 Data 추출할때는 Division사용한다.
+대수학은 참과 거짓 값을 나타내는 것 관계대수 는 집합연산인데 Rdb에서 사용을 할 수있다.
+cartition product를 사용하면 칼럼과 로우를 곱한 값으로 세로운 테이블을 만들 수있다
+가로행을 가져오고 싶을때는 Select 을 사용하고 새로열을 가져올때는 projection을 사용할 수 있다.
+predicate식 튜플관계해석과 도메인 관계해석이 있는데 Welfordformular WFF라고하고 수식을 사용하기 위하여 정형화 된 형태이다.
+관계사상은 Relation mapping 인데 원하는 DB를 뽑기위해 사용된다 Select From where 절이다.
