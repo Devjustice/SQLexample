@@ -1,0 +1,5 @@
+UPDATE Reservation Set Name ='티파니' Where ID =3;
+UPDATE Reservation Set Name ='효연' Where ID =3;
+UPDATE Reservation Set Name ='유리' Where ID =3;
+UPDATE Reservation Set Name ='수영' Where ID =3;
+SELECT * FROM Reservation;
